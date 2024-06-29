@@ -13,8 +13,7 @@ const palindromes = function (string) {
         reverseString += element;
         
     });
-    console.log(reverseString);
-    console.log(string);
+    
     if(reverseString === string){
         return true;
     }else{
